@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analizador de Números</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Analizador de Números</h1>
+    </header>
+    <section>
+      <div>
+        <label for="txtNum">Escreva um número de 1 a 100: </label>
+        <input type="number" name="txtNum" id="txtNum" />
+        <input type="button" value="Adicionar" onclick="adicionar()" />
+      </div>
+      <div class="select">
+        <select name="txtAdicionado" id="txtAdicionado" size="6"></select>
+      </div>
+      <div class="finalizar">
+        <input type="button" value="Finalizar" onclick="finalizar()" />
+      </div>
+      <div class="apagar">
+        <input type="button" value="Apagar" class="apagar" onclick="apagar()" />
+      </div>
+      <div id="resultado"></div>
+    </section>
+    <footer>
+      <p>&copy; MariaLuisaSanches</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
