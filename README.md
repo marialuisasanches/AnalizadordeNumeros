@@ -32,7 +32,3 @@ Projeto simples em **HTML, CSS e JavaScript** que permite adicionar números ent
 ## ✨ Autor
 
 Desenvolvido por **Maria Luisa Sanches** 💙
-Projeto com fins educacionais.
-
-
-Bons estudos! 🚀
